@@ -1,4 +1,4 @@
-# Wolvic VR Browser
+# Wolvic VR Browser (test)
 
 The goal of the Wolvic project is to create a full-featured browser exclusively for *standalone* AR and VR headsets.
 
