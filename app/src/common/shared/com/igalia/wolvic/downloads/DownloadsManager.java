@@ -25,8 +25,10 @@ import androidx.annotation.RequiresApi;
 import com.igalia.wolvic.R;
 import com.igalia.wolvic.utils.UrlUtils;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +44,9 @@ public class DownloadsManager {
 
     public interface DownloadsListener {
         default void onDownloadsUpdate(@NonNull List<Download> downloads) {}
+
         default void onDownloadCompleted(@NonNull Download download) {}
+
         default void onDownloadError(@NonNull String error, @NonNull String file) {}
     }
 
@@ -316,9 +320,59 @@ public class DownloadsManager {
             contentResolver.update(uri, contentValues, null, null);
 
             Log.e(LOGTAG, "************************ Done! ************************");
+
+            readingTest(uri);
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    private void readingTest(Uri uri) {
+        Log.e(LOGTAG, "************************ readingTest ************************");
+        try {
+            Log.e(LOGTAG, "*** Reading URI: " + uri);
+
+            ContentResolver contentResolver = mContext.getContentResolver();
+            InputStream inputStream = contentResolver.openInputStream(uri);
+            ByteArrayOutputStream byteOutput = new ByteArrayOutputStream();
+
+            Log.e(LOGTAG, "Ready to read into ByteArrayOutputStream");
+            byte[] buffer = new byte[1024];
+            int len;
+            while ((len = inputStream.read(buffer)) != -1) {
+                byteOutput.write(buffer, 0, len);
+            }
+            byte[] data = byteOutput.toByteArray();
+            Log.e(LOGTAG, "ByteArrayOutputStream contains " + byteOutput.size() + " bytes");
+
+            Log.e(LOGTAG, "Final result: " + data.length + " bytes");
+        } catch (IOException e) {
+            Log.e(LOGTAG, "Exception: " + e.getClass() + " : " + e.getMessage());
+            e.printStackTrace();
+        }
+
+        try {
+            Log.e(LOGTAG, "*** Reading file directly");
+            ContentResolver contentResolver = mContext.getContentResolver();
+            Cursor cursor = contentResolver.query(uri, new String[]{MediaStore.Downloads.DATA}, null, null);
+            if (!cursor.moveToFirst()) {
+                Log.e(LOGTAG, "Cursor is empty!");
+            }
+            String publicFilePath = cursor.getString(0);
+            cursor.close();
+            Log.e(LOGTAG, MediaStore.Downloads.DATA + " field : " + publicFilePath);
+
+            File file = new File(publicFilePath);
+            Log.e(LOGTAG, "Reading file " + file);
+            byte[] fileContent = Files.readAllBytes(file.toPath());
+            Log.e(LOGTAG, "Read " + fileContent.length + " bytes");
+        } catch (IOException e) {
+            Log.e(LOGTAG, "Exception: " + e.getClass() + " : " + e.getMessage());
+            e.printStackTrace();
+        }
+
+        Log.e(LOGTAG, "************************ readingTest done! ************************");
     }
 
     private void notifyDownloadsUpdate() {
