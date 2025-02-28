@@ -52,7 +52,7 @@
       "de": "Streaming"
     }
   },
-  "Experiences": [
+  "experiences": [
     {
       "title": "Magical Reflections",
       "thumbnail": "magical-reflections_480x270.webp",
