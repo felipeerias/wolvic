@@ -1,0 +1,335 @@
+{
+  "thumbnail_root": "https://darker.ink/wolvic/thumbnails/",
+  "categories": {
+    "Experiences": {
+      "en": "Experiences",
+      "es": "Experiencias",
+      "gl": "Experiencias",
+      "zh": "体验",
+      "ja": "体験",
+      "pt": "Experiências",
+      "fr": "Expériences",
+      "de": "Erlebnisse"
+    },
+    "Games": {
+      "en": "Games",
+      "es": "Juegos",
+      "gl": "Xogos",
+      "zh": "游戏",
+      "ja": "ゲーム",
+      "pt": "Jogos",
+      "fr": "Jeux",
+      "de": "Spiele"
+    },
+    "Painting": {
+      "en": "Painting",
+      "es": "Pintura",
+      "gl": "Pintura",
+      "zh": "绘画",
+      "ja": "描画",
+      "pt": "Pintura",
+      "fr": "Peinture",
+      "de": "Malen"
+    },
+    "Videos": {
+      "en": "Videos",
+      "es": "Videos",
+      "gl": "Vídeos",
+      "zh": "视频",
+      "ja": "動画",
+      "pt": "Vídeos",
+      "fr": "Vidéos",
+      "de": "Videos"
+    },
+    "Streaming": {
+      "en": "Streaming",
+      "es": "Streaming",
+      "gl": "Streaming",
+      "zh": "流媒体",
+      "ja": "ストリーミング",
+      "pt": "Streaming",
+      "fr": "Streaming",
+      "de": "Streaming"
+    }
+  },
+  "Experiences": [
+    {
+      "title": "Magical Reflections",
+      "thumbnail": "magical-reflections_480x270.webp",
+      "url": "https://www.magische-spiegelungen.de/",
+      "device": "dof3"
+    },
+    {
+      "title": "The National Gallery",
+      "thumbnail": "national-gallery_480x270.webp",
+      "url": "https://www.nationalgallery.org.uk/visiting/virtual-tours",
+      "device": "dof3"
+    },
+    {
+      "title": "Dreamwave",
+      "thumbnail": "dreamwave_480x270.webp",
+      "url": "https://dreamwave.live/",
+      "device": "dof3"
+    },
+    {
+      "title": "ExposéXR",
+      "thumbnail": "expose-xr.png",
+      "url": "https://www.exposexr.com/webxr-showcase.html",
+      "device": "dof3"
+    },
+    {
+      "title": "The Magic of Flight",
+      "thumbnail": "magicofflight_480x270.webp",
+      "url": "https://liquidcinemavr.com/fly/",
+      "device": "dof3"
+    },
+    {
+      "title": "XR Dinosaurs",
+      "thumbnail": "xrdinosaurs_480x270.webp",
+      "url": "https://www.xrdinosaurs.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "FLOW immersive",
+      "thumbnail": "babytime_480x270.webp",
+      "url": "https://a.flow.gl/",
+      "device": "dof3"
+    },
+    {
+      "title": "Raw Emotions",
+      "thumbnail": "raw_480x270.webp",
+      "url": "https://raw-emotions.phoria.com.au/",
+      "device": "dof3"
+    },
+    {
+      "title": "Hello WebXR!",
+      "thumbnail": "mixedreality_480x270.webp",
+      "url": "https://msub2.github.io/hello-webxr/",
+      "device": "dof3"
+    },
+    {
+      "title": "Ball Shooter",
+      "thumbnail": "ballshooter_480x270.webp",
+      "url": "https://threejs.org/examples/#webxr_xr_ballshooter",
+      "device": "dof3"
+    },
+    {
+      "title": "Matterport",
+      "thumbnail": "matterport_480x270.jpg",
+      "url": "https://matterport.com/discover",
+      "device": "dof3"
+    }
+  ],
+  "Games": [
+    {
+      "title": "Castle Builder",
+      "thumbnail": "game-castle-builder.jpg",
+      "url": "https://castle.needle.tools/",
+      "device": "dof6"
+    },
+    {
+      "title": "Jumpy Balls",
+      "thumbnail": "jumpy-balls.webp",
+      "url": "https://msub2.github.io/jumpy-balls/",
+      "device": "dof6"
+    },
+    {
+      "title": "Moon Rider",
+      "thumbnail": "moonrider_480x270.webp",
+      "url": "https://moonrider.xyz/",
+      "device": "dof6"
+    },
+    {
+      "title": "Rogue Saber",
+      "thumbnail": "roguesaber.jpg",
+      "url": "https://roguesaber.rvdleun.com",
+      "device": "dof6"
+    },
+    {
+      "title": "Plockle",
+      "thumbnail": "plockle.jpg",
+      "url": "https://plockle.com/play",
+      "device": "dof6"
+    },
+    {
+      "title": "Worlds Demolisher",
+      "thumbnail": "worldsdemolisher.jpg",
+      "url": "https://worldsdemolisher.totalviz.com/",
+      "device": "dof6"
+    },
+    {
+      "title": "City Sling VR Experience",
+      "thumbnail": "spidermain_box.jpg",
+      "url": "https://cityslingvr.arvr.social/",
+      "device": "dof6"
+    },
+    {
+      "title": "The Escape Artist",
+      "thumbnail": "escape-artist_480x270.jpg",
+      "url": "https://esc.art/",
+      "device": "dof6"
+    }
+  ],
+  "Painting": [
+    {
+      "title": "Brush Work",
+      "thumbnail": "brushworkvr.jpg",
+      "url": "https://brushworkvr.com/webxr",
+      "device": "dof6"
+    },
+    {
+      "title": "VARTISTE",
+      "thumbnail": "vartiste.jpg",
+      "url": "https://vartiste.xyz/",
+      "device": "dof6"
+    }
+  ],
+  "Videos": [
+    {
+      "title": "Airline Pilot's View",
+      "thumbnail": "360-video-airline-pilots-view_480x270.webp",
+      "url": "https://www.youtube.com/watch?v=f2vpuTU7sio",
+      "device": "dof3"
+    },
+    {
+      "title": "Oreo Cookies",
+      "thumbnail": "360-video-oreo-cookies_480x270.webp",
+      "url": "https://www.youtube.com/watch?v=ENau7AkayN8",
+      "device": "dof3"
+    },
+    {
+      "title": "Tails VR Flight on Sky Sanctuary",
+      "thumbnail": "tailsflight_480x270.webp",
+      "url": "https://www.youtube.com/watch?v=VnAcrtLGM08",
+      "device": "dof3"
+    },
+    {
+      "title": "Kobe Bryant's Last Game",
+      "thumbnail": "kobebryant_480x270.webp",
+      "url": "https://www.youtube.com/watch?v=ydBKIXWXxsk",
+      "device": "dof3"
+    },
+    {
+      "title": "Bright Side VR",
+      "thumbnail": "brightside-vr.png",
+      "url": "https://www.youtube.com/c/BrightSideVR360/featured",
+      "device": "dof3"
+    },
+    {
+      "title": "AirPano VR",
+      "thumbnail": "airpano_480x270.webp",
+      "url": "https://www.youtube.com/c/AirPanoVR/videos",
+      "device": "dof3"
+    },
+    {
+      "title": "360cities",
+      "thumbnail": "360cities.png",
+      "url": "https://www.360cities.net/",
+      "device": "dof3"
+    },
+    {
+      "title": "Hugh Hou",
+      "thumbnail": "hughhou_480x270.webp",
+      "url": "https://www.youtube.com/@hughhou",
+      "device": "dof3"
+    },
+    {
+      "title": "Virtual Reality",
+      "thumbnail": "360_yt.png",
+      "url": "https://www.youtube.com/@360/videos",
+      "device": "dof3"
+    },
+    {
+      "title": "VR Gorilla",
+      "thumbnail": "vrgorilla.png",
+      "url": "https://www.youtube.com/@Vrgorilla1/videos",
+      "device": "dof3"
+    },
+    {
+      "title": "Chengdu Giant Panda Base",
+      "thumbnail": "panda_yt.jpg",
+      "url": "https://www.youtube.com/watch?v=XYLQFCqM4Dc",
+      "device": "dof3"
+    },
+    {
+      "title": "Lions | National Geographic",
+      "thumbnail": "lions_natgeo.jpg",
+      "url": "https://www.youtube.com/watch?v=sPyAQQklc1s",
+      "device": "dof3"
+    }
+  ],
+  "Streaming": [
+    {
+      "title": "Amazon Prime Video",
+      "thumbnail": "amazon_prime.png",
+      "url": "https://primevideo.com",
+      "device": "dof3"
+    },
+    {
+      "title": "AppleTV+",
+      "thumbnail": "apple_tv_plus.svg",
+      "url": "https://tv.apple.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "Disney+",
+      "thumbnail": "disney_plus.png",
+      "url": "https://www.disneyplus.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "filmin",
+      "thumbnail": "filmin.svg",
+      "url": "https://www.filmin.es/",
+      "device": "dof3"
+    },
+    {
+      "title": "HBOmax",
+      "thumbnail": "hbomax.svg",
+      "url": "https://www.hbomax.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "YouTube",
+      "thumbnail": "youtube.png",
+      "url": "https://www.youtube.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "Spotify",
+      "thumbnail": "spotify.png",
+      "url": "https://www.spotify.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "iQiyi",
+      "thumbnail": "iqiyi.svg",
+      "url": "https://www.iqiyi.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "腾讯视频",
+      "thumbnail": "tencent.svg",
+      "url": "https://v.qq.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "Youku",
+      "thumbnail": "youku.png",
+      "url": "https://www.youku.com",
+      "device": "dof3"
+    },
+    {
+      "title": "bilibili",
+      "thumbnail": "bilibili.png",
+      "url": "https://www.bilibili.com/",
+      "device": "dof3"
+    },
+    {
+      "title": "西瓜视频",
+      "thumbnail": "ixigua.svg",
+      "url": "https://www.ixigua.com/",
+      "device": "dof3"
+    }
+  ]
+}
