@@ -93,54 +93,176 @@
         "de": "Spiele"
       },
       "items": [
-        {
-          "title": "Castle Builder",
-          "thumbnail": "game-castle-builder.jpg",
-          "url": "https://castle.needle.tools/",
-          "device": "dof6"
-        },
-        {
-          "title": "Jumpy Balls",
-          "thumbnail": "jumpy-balls.webp",
-          "url": "https://msub2.github.io/jumpy-balls/",
-          "device": "dof6"
-        },
-        {
-          "title": "Moon Rider",
-          "thumbnail": "moonrider_480x270.webp",
-          "url": "https://moonrider.xyz/",
-          "device": "dof6"
-        },
-        {
-          "title": "Rogue Saber",
-          "thumbnail": "roguesaber.jpg",
-          "url": "https://roguesaber.rvdleun.com",
-          "device": "dof6"
-        },
-        {
-          "title": "Plockle",
-          "thumbnail": "plockle.jpg",
-          "url": "https://plockle.com/play",
-          "device": "dof6"
-        },
-        {
-          "title": "Worlds Demolisher",
-          "thumbnail": "worldsdemolisher.jpg",
-          "url": "https://worldsdemolisher.totalviz.com/",
-          "device": "dof6"
-        },
-        {
-          "title": "City Sling VR Experience",
-          "thumbnail": "spidermain_box.jpg",
-          "url": "https://cityslingvr.arvr.social/",
-          "device": "dof6"
-        },
-        {
-          "title": "The Escape Artist",
-          "thumbnail": "escape-artist_480x270.jpg",
-          "url": "https://esc.art/",
-          "device": "dof6"
-        }
+				[
+				  {
+				    "title": "Moon Rider",
+				    "thumbnail": "moonrider_480x270.webp",
+				    "url": "https://moonrider.xyz/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Spectral Dawn",
+				    "thumbnail": "spectral-dawn_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/spectraldawn",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Dead Secret Circle",
+				    "thumbnail": "dead-secret-circle.jpg",
+				    "url": "https://heyvr.io/game/dead-secret-circle",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Trajectile Command",
+				    "thumbnail": "trajectile-command_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/trajectile-command",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "The Escape Artist",
+				    "thumbnail": "escape-artist_480x270.jpg",
+				    "url": "https://esc.art/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Archery Evolution: Time Trials",
+				    "thumbnail": "archery-evolution_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/archery-evolution",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Archery Training",
+				    "thumbnail": "archery-training_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/archery-training",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Archery Dungeon",
+				    "thumbnail": "game-archery-dungeon.jpg",
+				    "url": "https://heyVR.io/game/archery-dungeon/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Castle Builder",
+				    "thumbnail": "game-castle-builder.jpg",
+				    "url": "https://castle.needle.tools/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Iron Rails",
+				    "thumbnail": "iron-rails_480x270.webp",
+				    "url": "https://heyVR.io/game/iron-rails/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Boulderworld",
+				    "thumbnail": "game-boulderworld.jpg",
+				    "url": "https://heyVR.io/game/boulderworld/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Construct Chess",
+				    "thumbnail": "construct-chess.webp",
+				    "url": "https://heyVR.io/game/construct-chess/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Rogue Saber",
+				    "thumbnail": "roguesaber.jpg",
+				    "url": "https://roguesaber.rvdleun.com",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Ski Fit 365",
+				    "thumbnail": "ski-fit-365_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/ski-fit-365",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Hover Fit",
+				    "thumbnail": "hover-fit_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/hoverfit",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Asteroid Storm",
+				    "thumbnail": "asteroid-storm_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/asteroid-storm",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Plockle",
+				    "thumbnail": "plockle.jpg",
+				    "url": "https://plockle.com/play",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Jumpy Balls",
+				    "thumbnail": "jumpy-balls.webp",
+				    "url": "https://msub2.github.io/jumpy-balls/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Elysian",
+				    "thumbnail": "elysian_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/elysian",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Wonderbricks",
+				    "thumbnail": "wonderbricks_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/wonderbricks",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Worlds Demolisher",
+				    "thumbnail": "worldsdemolisher.jpg",
+				    "url": "https://worldsdemolisher.totalviz.com/",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Barista Express",
+				    "thumbnail": "barista-express.webp",
+				    "url": "https://heyVR.io/game/barista-express/",
+				    "device": "dof3"
+				  },
+				  {
+				    "title": "Back to Space",
+				    "thumbnail": "back-to-space_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/back-to-space",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Robot Arena",
+				    "thumbnail": "robot-arena_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/RobotArena",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "The Trap",
+				    "thumbnail": "trap_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/the_trap",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "F60 - Escape Room",
+				    "thumbnail": "f60_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/f60",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "Pan Studio VR!",
+				    "thumbnail": "pan-studio_480x270.webp",
+				    "url": "https://heyvr.io/arcade/games/pan-studio-vr",
+				    "device": "dof6"
+				  },
+				  {
+				    "title": "City Sling VR Experience",
+				    "thumbnail": "spidermain_box.jpg",
+				    "url": "https://cityslingvr.arvr.social/",
+				    "device": "dof6"
+				  }
+				]
       ]
     },
     "Painting": {
