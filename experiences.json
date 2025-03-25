@@ -4,15 +4,14 @@
       "id": "2025-03-25_001",
       "date": "2025-03-25",
       "title": {
-        "en": "Welcome to Wolvic",
-        "es": "Bienvenido a Wolvic"
+        "en": "Wolvic blog",
+        "es": "Blog de Wolvic"
       },
       "body": {
-        "en": "Get to know our project.",
-        "es": "Conoce nuestro proyecto."
+        "en": "Read updates about our project.",
+        "es": "Lee noticias sobre nuestro proyecto."
       },
-      "image": "https://darker.ink/wolvic/images/wolvic-logo.png",
-      "link": "https://wolvic.com/"
+      "link": "https://wolvic.com/blog"
     },
     {
       "id": "2025-03-25_002",
@@ -27,6 +26,18 @@
       },
       "image": "https://darker.ink/wolvic/images/igalia-logo.png",
       "link": "https://igalia.com"
+    },
+    {
+      "id": "2025-03-25_003",
+      "date": "2025-03-25",
+      "title": {
+        "en": "Item without image or link",
+        "es": "Elemento sin imagen ni enlace"
+      },
+      "body": {
+        "en": "This is a test item, for example a warning or suggestion.",
+        "es": "Este es un elemento de prueba, podría ser una advertencia o una sugerencia."
+      }
     }
   ],
   "categories": {
