@@ -1,4 +1,34 @@
 {
+	"announcements": [
+		{
+			"id": "2025-03-25_001",
+			"date": "2025-03-25",
+			"title": {
+				"en": "Welcome to Wolvic",
+				"es": "Bienvenido a Wolvic"
+			},
+			"body": {
+				"en": "Get to know our project.",
+				"es": "Conoce nuestro proyecto."
+			},
+			"image": "https://darker.ink/wolvic/images/wolvic-logo.png",
+			"link": "https://wolvic.com/"
+		},
+		{
+			"id": "2025-03-25_002",
+			"date": "2025-03-25",
+			"title": {
+				"en": "Learn about Igalia",
+				"es": "Conoce Igalia"
+			},
+			"body": {
+				"en": "Get to know Igalia, makers of Wolvic.",
+				"es": "Conoce a Igalia, los creadores de Wolvic."
+			},
+			"image": "https://darker.ink/wolvic/images/igalia-logo.png",
+			"link": "https://igalia.com"
+		}
+	],
   "categories": {
     "Experiences": {
       "translations": {
