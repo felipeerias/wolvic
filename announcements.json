@@ -17,14 +17,14 @@
       "id": "2025-03-25_002",
       "date": "2025-03-25",
       "title": {
-        "en": "Learn about Igalia",
-        "es": "Conoce Igalia"
+        "en": "Learn about the makers of Wolvic",
+        "es": "Conoce a los creadores de Wolvic"
       },
       "body": {
         "en": "Get to know Igalia, makers of Wolvic.",
         "es": "Conoce a Igalia, los creadores de Wolvic."
       },
-      "image": "https://darker.ink/wolvic/images/igalia-logo.png",
+      "image": "https://darker.ink/wolvic/images/header-contact.jpg",
       "link": "https://igalia.com"
     },
     {
